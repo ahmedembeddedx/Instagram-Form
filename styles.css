@@ -1,0 +1,55 @@
+html
+{
+    font-family:monospace;
+    margin: 20px;
+    font-size: 15px;
+    height: 100%;
+}
+
+input, select, option, button
+{
+    font-family:monospace;
+    height: 25px;
+    border: 2px solid #b3a9a9;
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+
+input:hover
+{
+    border: 2px solid powderblue;
+}
+
+
+button
+{
+    height: 40px;
+    background-color: powderblue;
+    color: black;
+}
+
+button:hover
+{
+    background-color:white;
+    cursor: pointer;
+}
+
+.main_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    border: 2px solid #b3a9a9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+img
+{
+    height: 10rem;
+    display: block;
+    margin: 0 auto;
+}
